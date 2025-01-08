@@ -1,0 +1,332 @@
+:root
+{
+    --main-orange: #FA4A0C;
+    --main-gray: #252B42;
+    --main-info-gray: #737373;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 41px;
+    padding-top: 35px;
+}
+.body
+{
+    margin: 0;
+}
+.nav-list
+{
+    display: flex;
+    gap: 94px;
+}
+.order-in-exchange
+{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 78px;
+    padding-bottom: 27px;
+}
+.webmarket-button
+{
+    text-align: center;
+}
+.available-on
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.button-playstore
+{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    background-color: var(--main-orange);
+    width: Hug (142px)px;
+    height: Hug (64px)px;
+    padding: 18px 31px 18px 31px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    opacity: 0px;
+
+
+}
+.button-appstore
+{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: Hug (173px)px;
+    height: Hug (60px)px;
+    padding: 16px 45px 16px 45px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px white solid;
+    opacity: 0px;
+    color: white;
+    background: none;
+}
+.order-section
+{
+    background-color: #252B4266;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    background-image: url(./img/background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-app-work
+{
+    padding-bottom: 100px;
+}
+.order-text
+{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.author
+{
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.10000000149011612px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.delivery-button
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: var(--main-orange);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    opacity: 0px;
+
+}
+.how-work-app
+{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 100px;
+    opacity: 80%;
+}
+.phone1
+{
+    margin-bottom: 120px;
+}
+.create-account
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-orange);
+}
+.login-to-existing
+{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+}
+.account-mail
+    {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-info-gray);
+}
+.explore-varieties
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-orange);
+}
+.shop-for-meal
+{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-gray);
+}
+.shop-for-meal2
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--main-info-gray);
+}
+.button-nav
+{
+    text-align: center;
+}
+.ss
+{
+    display: flex;
+    justify-content: space-between;
+}
+.ss2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.nav-li 
+{
+    padding: 10px;
+}
+.nav-site
+{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    color: var(--main-gray);
+}
+.nav-site:active
+{
+    color: var(--main-orange);
+}
+.section-restaraunt
+{
+    background-color: #17101099;
+    background-image: url(./img/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 140px;
+    padding-top: 35px;
+}
+.menu-button
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 10px 65px;
+    border-radius: 30px;
+    border: 1px white solid;
+    color: white;
+    background: none;
+}
+.restaraunt
+{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.why-stay-hungry
+{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+.container-main
+{
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-secondary
+{
+    max-width: 1105px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
