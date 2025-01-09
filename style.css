@@ -74,7 +74,7 @@
     border-radius: 10px;
     border: none;
     opacity: 0px;
-
+    cursor: pointer;
 
 }
 .button-appstore
@@ -95,6 +95,7 @@
     opacity: 0px;
     color: white;
     background: none;
+    cursor: pointer;
 }
 .order-section
 {
@@ -150,7 +151,7 @@ text-decoration-skip-ink: none;
     border-radius: 30px;
     border: none;
     opacity: 0px;
-
+    cursor: pointer;
 }
 .how-work-app
 {
@@ -295,6 +296,7 @@ text-decoration-skip-ink: none;
     border: 1px white solid;
     color: white;
     background: none;
+    cursor: pointer;
 }
 .restaraunt
 {
